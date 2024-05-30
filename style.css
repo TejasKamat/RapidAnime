@@ -1,0 +1,50 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 450px;
+}
+
+.card p {
+    padding-left: 15px;
+}
+
+.card {
+    width: 18rem;
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 22rem;
+    }
+
+    #rowing {
+        padding-left: 8.5%;
+    }
+}
+
+@media (min-width: 1000px) {
+    #rowing {
+        padding-left: 8px;
+    }
+}
+
+.disclaimer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: -15px;
+    color: rgb(198, 198, 198);
+
+}
+
+.disclaimer p {
+    text-align: center;
+}
